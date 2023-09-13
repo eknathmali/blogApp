@@ -1,0 +1,19 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "cd client && npm install && npm start",
+      "build":"cd server && npm install && node server.js"
+  
+    },
+    "author": "",
+    "license": "ISC",
+   
+    "engines": {
+      "node": ">=16"
+      }
+  }
+  
